@@ -31,15 +31,6 @@ A class-based application that:
 - Applies discounts
 - Displays product details in tabular format
 
-## Concepts Covered
-
-- Functions
-- Function Overloading
-- Default Arguments
-- Classes and Objects
-- Arrays of Objects
-- Encapsulation
-- Formatted Output using `iomanip`
 
 ## Author
 
