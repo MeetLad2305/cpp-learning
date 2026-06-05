@@ -1,4 +1,4 @@
-# C++ Learning Repository
+  # C++ Learning Repository
 
 ## About
 
@@ -30,7 +30,25 @@ A class-based application that:
 - Calculates total cost
 - Applies discounts
 - Displays product details in tabular format
+### 4. Hotel Billing System
 
+A function overloading based application that:
+
+- Accepts customer details
+- Allows selection of room types (Standard, Deluxe, Suite)
+- Calculates the hotel bill based on the number of days stayed
+- Demonstrates the use of default arguments and function overloading
+- Generates a formatted hotel bill displaying:
+  - Customer Name
+  - Number of Days
+  - Room Type
+  - Total Bill Amount
+
+#### Room Rates
+
+- Standard Room – ₹2000/day
+- Deluxe Room – ₹3500/day
+- Suite Room – ₹5000/day
 
 ## Author
 
