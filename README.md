@@ -50,6 +50,15 @@ A function overloading based application that:
 - Deluxe Room – ₹3500/day
 - Suite Room – ₹5000/day
 
+### 5. Magic Square Checker
+
+A matrix-based application that:
+
+- Accepts an N × N square matrix from the user
+- Calculates row, column, and diagonal sums
+- Determines whether the matrix is a Magic Square
+- Displays the magic sum and diagonal sums
+  
 ## Author
 
 **Meet Lad**
