@@ -63,6 +63,6 @@ A matrix-based application that:
 
 **Meet Lad**
 
-##Purpose
+## Purpose
 
 This repository is created to track my progress and improve my C++ programming skills.
