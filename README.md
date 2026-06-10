@@ -59,7 +59,7 @@ A matrix-based application that:
 - Determines whether the matrix is a Magic Square
 - Displays the magic sum and diagonal sums
 
-## 6. Smart Warehouse Inventory Item Management System
+### 6. Smart Warehouse Inventory Item Management System
 
 An operator overloading based application that:
 
