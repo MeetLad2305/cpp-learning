@@ -58,6 +58,31 @@ A matrix-based application that:
 - Calculates row, column, and diagonal sums
 - Determines whether the matrix is a Magic Square
 - Displays the magic sum and diagonal sums
+
+## 6. Smart Warehouse Inventory Item Management System
+
+An operator overloading based application that:
+
+- Manages warehouse inventory records using Item ID, Item Name, and Current Stock Quantity
+- Simulates stock receiving and dispatch operations using increment (`++`) and decrement (`--`) operators
+- Performs inventory calculations using arithmetic operators (`+`, `-`, `*`, `/`)
+- Compares stock levels between items using relational operators (`>`, `<`, `>=`, `<=`, `==`, `!=`)
+- Copies inventory records using the assignment operator (`=`)
+- Checks stock availability using logical operators (`&&`, `||`, `!`)
+- Generates a formatted inventory report displaying:
+  - Item ID
+  - Item Name
+  - Current Stock Quantity
+
+### Features
+
+- Pre/Post Increment and Decrement Operator Overloading
+- Arithmetic Operator Overloading
+- Relational Operator Overloading
+- Assignment Operator Overloading
+- Logical Operator Overloading
+- Inventory Stock Management
+- Formatted Inventory Report Generation
   
 ## Author
 
