@@ -83,6 +83,33 @@ An operator overloading based application that:
 - Logical Operator Overloading
 - Inventory Stock Management
 - Formatted Inventory Report Generation
+
+### 7. Matrix Operations Using Operator Overloading
+
+  The program performs matrix addition, subtraction, multiplication, and division by a scalar value with proper validation checks.
+
+### Features
+ - Dynamic 2D Matrix Creation
+ - Matrix Addition (+)
+ - Matrix Subtraction (-)
+ - Matrix Multiplication (*)
+ - Matrix Division (/)
+ - Operator Overloading for Input (>>) and Output (<<)
+ - Validation for Invalid Operations
+
+### Sample Operations
+  C = A + B;
+  C = A - B;
+  C = A * B;
+  C = C / 2;
+  
+### Validation
+
+- Addition/Subtraction: Same dimensions required.
+- Multiplication: Columns of first matrix must equal rows of second matrix.
+- Division: Division by zero is not allowed.
+- Invalid results are not displayed.
+
   
 ## Author
 
