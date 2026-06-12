@@ -110,7 +110,27 @@ An operator overloading based application that:
 - Division: Division by zero is not allowed.
 - Invalid results are not displayed.
 
-  
+
+### 8. Employee Performance Analytics Dashboard
+
+An operator overloading based application that:
+
+* Manages employee records using Employee ID, Employee Name, Department, and Monthly Performance Scores.
+* Accesses and updates monthly scores using the subscript operator (`[]`).
+* Calculates monthly, quarterly, and annual performance using the function call operator (`()`).
+* Reads employee information using the stream extraction operator (`>>`).
+* Displays employee performance reports using the stream insertion operator (`<<`).
+
+#### Features
+
+* Subscript Operator Overloading (`[]`)
+* Function Call Operator Overloading (`()`)
+* Stream Extraction Operator Overloading (`>>`)
+* Stream Insertion Operator Overloading (`<<`)
+* Monthly Performance Management
+* Quarterly Performance Analysis
+* Annual Performance Report Generation
+
 ## Author
 
 **Meet Lad**
