@@ -121,7 +121,7 @@ An operator overloading based application that:
 * Reads employee information using the stream extraction operator (`>>`).
 * Displays employee performance reports using the stream insertion operator (`<<`).
 
-#### Features
+### Features
 
 * Subscript Operator Overloading (`[]`)
 * Function Call Operator Overloading (`()`)
