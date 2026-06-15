@@ -1,0 +1,62 @@
+#include<iostream>
+using namespace std;
+class Book
+{
+        int b_id;
+        string b_title;
+        string author_name;
+    public:
+        Book(){}
+        Book(int id, string title,string author)
+        {
+            b_id=id;
+            b_title=title;
+            author_name=author;
+
+        }
+        void displaybook()
+        {
+            cout<<"The Book I'D : "<<b_id<<endl; 
+            cout<<"The Book Name : "<<b_title<<endl; 
+            cout<<"The Book Author Name : "<<author_name<<endl; 
+        }
+};
+class IssuedBook : public Book
+{
+        string S_Name ;
+        int Issue_Date;
+    public:
+        IssuedBook(string name,int date,int id, string title,string author) : Book( id,  title, author)
+        {
+            S_Name=name;
+            Issue_Date=date;
+        }
+        void displayIssueBook()
+        {
+            displaybook();
+            cout<<"The Student Name : "<<S_Name<<endl; 
+            cout<<"Book Issue Date  : "<<Issue_Date<<endl; 
+        }
+
+};
+int main()
+{
+    int i,d;
+    string s_n,b_n,a_n;
+    cout<<"Enter the Book Id :";
+    cin>>i;
+    cout<<"Enter the Book Name :";
+    getline(cin >> ws, b_n);
+    cout<<"Enter the Book Author Name :";
+    getline(cin, a_n);
+    cout<<"Enter the Student Name :";
+    getline(cin, s_n);
+    cout<<"Enter the Issue Date :";
+    cin>>d;
+
+   
+    IssuedBook I1(s_n,d,i,b_n,a_n);
+    I1.displayIssueBook();
+    
+
+}
