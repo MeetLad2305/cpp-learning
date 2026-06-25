@@ -2,7 +2,7 @@
 
 ## About
 
-Welcome to my C++ learning repository. This repository contains programs and mini-projects created while learning C++ programming concepts..
+Welcome to my C++ learning repository. This repository contains programs and mini-projects created while learning C++ programming concepts.
 
 ## Programs
 
