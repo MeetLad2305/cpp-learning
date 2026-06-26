@@ -12,3 +12,13 @@ This C++ program performs basic string operations using character arrays. It cal
 * Frequency Array
 * Palindrome Checking
 * Anagram Checking
+
+
+#  Program 2: Factorial Calculator 
+
+A simple C++ program that calculates the factorial of a given number using a `for` loop.
+
+## Features
+- Accepts an integer input from the user.
+- Computes the factorial iteratively.
+- Displays the calculated factorial.
