@@ -1,4 +1,4 @@
-# Program 1: String Operations (Length , Palindrome, and Anagram Check)
+# Program 1 : String Operations (Length , Palindrome, and Anagram Check)
 
 ## Description
 
